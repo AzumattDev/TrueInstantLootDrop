@@ -1,8 +1,8 @@
 {
   "name": "TrueInstantLootDrop",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://discord.gg/pdHgy6Bsng",
-  "description": "Instantly drops the loot where the character dies, not where the ragdoll ends up. Doesn't destroy the ragdoll to achieve this. It's instant, no configurations are generated for this mod currently. Ultimately the same effect as InstantMonsterLootDrop",
+  "description": "Instantly drops the loot where the character dies, not where the ragdoll ends up. Ultimately, the same effect as InstantMonsterLootDrop with less overhead.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2202"
   ]

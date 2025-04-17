@@ -1,6 +1,6 @@
 # Description
 
-## Instantly drops the loot where the character dies, not where the ragdoll ends up. It's instant, no configurations are generated for this mod currently. Ultimately, the same effect as InstantMonsterLootDrop with less overhead.
+## Instantly drops the loot where the character dies, not where the ragdoll ends up. Ultimately, the same effect as InstantMonsterLootDrop with less overhead.
 
 `Client only mod, but recommended that all players have it installed to make it function correctly in a server setting.`
 
@@ -11,7 +11,7 @@ Less overhead and more straight forward approach than InstantMonsterLootDrop mod
 - Are there any configurations?
   - No, not currently. I may add some in the future if I get requests for them.
 - Less overhead than InstantMonsterLootDrop?
-  - In case you skipped stuff above...yes, this mod is less overhead than InstantMonsterLootDrop. It doesn't use reflection or coroutines. The patches are a bit more precise.
+  - In case you skipped stuff above...yes, this mod is less overhead than InstantMonsterLootDrop. It doesn't use a coroutine to track state. The patches are a bit more precise.
 - Is this the same implementation as you did for NoCreatureDust?
   - No, this is a different implementation. NoCreatureDust uses a different method to achieve a similar effect, but this is probably superior to even that. I will likely update NoCreatureDust to use this method in the future.
 - Is this the best method?
